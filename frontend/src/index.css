@@ -1,0 +1,134 @@
+:root {
+    --font-family: 'Arial', sans-serif;
+    --background-color: #f8f9fa;
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --light-gray: #f1f1f1;
+    --card-radius: 10px;
+    --card-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    --font-weight-semibold: 600;
+    --font-weight-medium: 500;
+    --font-size-card-title: 1.25rem;
+    --font-size-card-text: 1.5rem;
+    --padding-container: 2rem;
+    --padding-container-sm: 1rem;
+    --btn-padding: 0.25rem 0.5rem;
+    --btn-font-size: 0.875rem;
+    --dropdown-min-width: 10rem;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+}
+
+.container-fluid {
+    padding: 0 var(--padding-container);
+}
+
+h2, h3 {
+    margin: 20px 0;
+    font-weight: var(--font-weight-semibold);
+}
+
+.card {
+    border-radius: var(--card-radius);
+    box-shadow: var(--card-shadow);
+}
+
+.card-title {
+    font-size: var(--font-size-card-title);
+    font-weight: var(--font-weight-medium);
+}
+
+.card-text {
+    font-size: var(--font-size-card-text);
+    font-weight: var(--font-weight-semibold);
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table th {
+    background-color: var(--light-gray);
+}
+
+.table td .btn {
+    padding: var(--btn-padding);
+    font-size: var(--btn-font-size);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.btn-outline-primary {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.dropdown-menu {
+    min-width: var(--dropdown-min-width);
+}
+
+@media (max-width: 768px) {
+    .table-responsive {
+        overflow-x: auto;
+    }
+
+    .table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .table thead, .table tbody, .table th, .table td, .table tr {
+        display: block;
+    }
+
+    .table th {
+        background-color: var(--light-gray);
+    }
+
+    .table tr {
+        margin-bottom: 1rem;
+    }
+
+    .table td {
+        text-align: left;
+        padding: 0.75rem;
+        border-top: none;
+    }
+
+    .table td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        text-transform: uppercase;
+        display: block;
+    }
+
+    .container-fluid {
+        padding: 0 var(--padding-container-sm);
+    }
+
+    .btn-block {
+        width: 100%;
+    }
+}
