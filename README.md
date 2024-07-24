@@ -15,8 +15,8 @@ La idea de MoonFlow nació de la necesidad personal de gestionar y centralizar l
 - **Centralización de Datos Bancarios**: Mantén todos tus datos financieros en un sistema privado y seguro sin que nadie más tenga acceso a ellos.
 - **Múltiples Usuarios**: Ideal para uso individual o familiar, permitiendo que cada miembro de la familia gestione sus finanzas de manera independiente.
 - **Visualización de Datos**: Proporciona gráficos y análisis detallados de tus ingresos y gastos.
-- **Automatización**: Nuestra visión incluye la automatización completa del proceso de registro de transacciones, ofreciendo consejos y avisos en tiempo real sobre la situación financiera.
-- **Integración con Siri**: Automatiza los registros por voz, facilitando el proceso de registro en el momento real de pago.
+- **(PRÓXIMAMENTE) Integración con Siri**: Automatiza los registros por voz, facilitando el proceso de registro en el momento real de pago.
+- **(PRÓXIMAMENTE) Automatización**: Nuestra visión incluye la automatización completa del proceso de registro de transacciones, ofreciendo consejos y avisos en tiempo real sobre la situación financiera.
 
 ## Contribuciones
 
