@@ -23,6 +23,7 @@ La idea de MoonFlow nació de la necesidad personal de gestionar y centralizar l
 MoonFlow es un proyecto open-source y agradecemos cualquier tipo de contribución. Ya sea reportando errores, sugiriendo mejoras, o contribuyendo con código, tu participación es bienvenida.
 
 ## Estructura del Proyecto
+```plaintext
 ├── README.md
 ├── backend
 │   ├── app.log
@@ -123,6 +124,7 @@ MoonFlow es un proyecto open-source y agradecemos cualquier tipo de contribució
         └── utils
             ├── formatAmount.js
             └── iconList.js
+```
 
 ## Cómo Contribuir
 
